@@ -11,13 +11,25 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
-
     <script>
       // Your web app's Firebase configuration
-      //add here
+      var firebaseConfig = {
+        apiKey: "AIzaSyDQAKnB6BQYMbBmAEi3nu52nuOBXTnAQsA",
+        authDomain: "car-racing-game-d140e.firebaseapp.com",
+        databaseURL: "https://car-racing-game-d140e.firebaseio.com",
+        projectId: "car-racing-game-d140e",
+        storageBucket: "car-racing-game-d140e.appspot.com",
+        messagingSenderId: "624420591174",
+        appId: "1:624420591174:web:18cb1602489470653f5c47"
+      };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
     </script>
+
+    <script src="js/game.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/form.js"></script>
+
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
